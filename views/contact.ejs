@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Contacts loading....</h1>
+    <!-- <p><%= re.dept %></p> -->
+
+    <form method="POST" action="/contact">
+        <label for"who">Who are you</label>
+        <input type="text" name="who" value="<%= re.person %>" />
+        <label for"department">Department</label>
+        <input type="text" name="department" value="<%= re.dept %>"/>
+        <label for"email">Your email</label>
+        <input type="text" name="email" value="<%= re.email %>"/>
+        <input type="submit" value="submit"/>
+    </form>
+   
+</body>
+</html>

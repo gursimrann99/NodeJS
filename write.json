@@ -1,0 +1,19 @@
+{
+    "birds": [
+        {
+            "id": "1",
+            "bird": "Eagle",
+            "gender": "Male"
+        },
+        {
+            "id": "2",
+            "bird": "Sparrow",
+            "gender": "Female"
+        },
+        {
+            "id": "1",
+            "bird": "Parrot",
+            "gender": "Male"
+        }
+    ]
+}
